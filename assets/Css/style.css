@@ -1,27 +1,43 @@
-*{
-margin: 20px;
-padding: ;
-box-sizing: border-box;
-font-family: 'Merriweather Sans', sans-serif;
+* {
+    margin: 20px;
+    padding: ;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
 }
-header{
+
+header {
     color: rgb(220, 35, 35);
     text-align: center;
-    margin:50px 0 100px 0 ;} /* come si scrivono i valori nell'ordine giusto sup, dx, inf, sx */
-h2{
+    margin: 0px 0 100px 0;
+    /* come si scrivono i valori nell'ordine giusto sup, dx, inf, sx */
+}
+
+
+h2 {
     text-align: center;
     margin-bottom: 50px;
 }
-.container{
 
-    margin: 0;
+.container {
+    /* ???? max-width: 1170px; */
+ margin: 0;
 }
-.columns .col{
-    float: left;
-    width: calc(100% / 3) ;
+
+.columns .col {
+float: left;
+width: calc(100% / 4);
 }
+
 /* Debug */
-.debug .col{
+.debug .col {
     background-color: blueviolet;
-    height:100px;
+
+}
+
+/* clearfix */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+
 }
