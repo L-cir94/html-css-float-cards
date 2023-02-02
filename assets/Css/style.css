@@ -1,0 +1,13 @@
+*{
+margin: 0;
+padding: ;
+box-sizing: border-box;
+}
+header{
+    color: rgb(220, 35, 35);
+    text-align: center;
+    font-family: ;
+    margin:100px 0 50px 0 ;} /* come si scrivono i valori nell'ordine giusto sup, dx, inf, sx */
+h2{
+    text-align: center;
+}
