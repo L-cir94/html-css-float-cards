@@ -1,13 +1,27 @@
 *{
-margin: 0;
+margin: 20px;
 padding: ;
 box-sizing: border-box;
+font-family: 'Merriweather Sans', sans-serif;
 }
 header{
     color: rgb(220, 35, 35);
     text-align: center;
-    font-family: ;
-    margin:100px 0 50px 0 ;} /* come si scrivono i valori nell'ordine giusto sup, dx, inf, sx */
+    margin:50px 0 100px 0 ;} /* come si scrivono i valori nell'ordine giusto sup, dx, inf, sx */
 h2{
     text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+
+    margin: 0;
+}
+.columns .col{
+    float: left;
+    width: calc(100% / 3) ;
+}
+/* Debug */
+.debug .col{
+    background-color: blueviolet;
+    height:100px;
 }
